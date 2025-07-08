@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delizia Caffè Italia</title>
+  <link rel="stylesheet" href="styles.css">  
+  <link rel="shortcut icon" type="image" href="logotransparent.png" />
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="menu-wallpaper-slideshow">
+      <div class="slide active" style="background-image: url('WP1.jpg');"></div>
+      <div class="slide" style="background-image: url('WP2.jpg');"></div>
+      <div class="overlay"></div>
+      <div class="logo-centered">
+        <img src="WHITELOGO.png" alt="Delizia Caffè Logo">
+      </div>
+      <nav class="category-nav">
+        <ul>
+          <li><a href="DeliziaCaffe.HTML">Home</a></li>
+         <li><a href="#">I nostri caffè</a></li>
+          <li><a href="chisiamo.html">Chi siamo</a></li>
+         <li><a href="Contatti.html">Contatti</a></li>
+          <li><a href="http://localhost/system/public/login_system.php">Delizia Caffè Club</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delizia Caffè</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f7f6;
+      color: #2e2e2e;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #006400;
+      margin-bottom: 20px;
+      animation: fadeInDown 1s ease;
+      font-family: 'new times roman';
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+      animation: fadeInUp 1.5s ease;
+      font-family: 'new times roman';
+    }
+
+    .cta-button {
+      padding: 12px 28px;
+      background-color: #006400;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      animation: fadeInUp 2s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #8c5f3f;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>Delizia Caffè</h1>
+    <p>
+    <b>Delizia Caffè</b> importa caffè verde dai migliori paesi produttori al mondo e seleziona con cura i chicchi più pregiati per una tostatura artigianale di altissima qualità. Offriamo servizi dedicati sia ai consumatori finali che alle aziende di torrefazione, portando l’eccellenza del caffè italiano ed europeo a un nuovo livello.
+Grazie a partnership consolidate con produttori internazionali, trasformiamo ogni tazza in un’esperienza aromatica unica, per rendere le vostre mattine davvero… deliziose.
+    </p>
+    <button class="cta-button" onclick="scrollToContent()">Scopri di più</button>
+  </section>
+
+  <script>
+    function scrollToContent() {
+      window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
+
+
+    <section id="chi-siamo">
+  <div class="overlay">
+    <h2>Passione per il Caffè, Radici nel Mondo</h2>
+    <p>Importiamo caffè crudo da produttori selezionati in Etiopia, Colombia, Brasile e altri paesi, per offrire qualità e trasparenza ai torrefattori italiani.</p>
+    <a href="chisiamo.html" class="btn">Chi siamo</a>
+    
+  </div>
+</section>
+
+<section id="prodotti">
+  <h2>I nostri caffè</h2>
+  <p>Chicchi verdi da alcune delle migliori regioni produttrici di caffè nel mondo.</p>
+
+  <div class="scroll-container">
+    <div class="griglia-prodotti" id="griglia-scroll">
+      <div class="prodotto">
+        <img src="brazilmap.png" alt="Caffè Brasile">
+        <h3>Brasile</h3>
+        <p>Gusto pieno e rotondo, perfetto per miscele di qualità.</p>
+      </div>
+     <div class="prodotto">
+        <img src="indonesianmap.PNG" alt="Caffè Indonesia">
+        <h3>Indonesia</h3>
+        <p>Terroso e corposo, con sentori di spezie esotiche.</p>
+      </div>
+      <div class="prodotto">
+        <img src="colombiamap.png" alt="Caffè Colombia">
+        <h3>Colombia</h3>
+        <p>Note dolci e agrumate, ideale per torrefazioni artigianali.</p>
+      </div>
+      <div class="prodotto">
+        <img src="ethiopiamap.png" alt="Caffè Etiopia">
+        <h3>Etiopia</h3>
+        <p>Aromi floreali e fruttati, corpo leggero e acidità brillante.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="references">
+      <h2>Le nostre Qualità</h2>
+      <hr class="section-divider">
+      <div class="references-container">
+        <div class="reference-item">
+          <img src="qualityicongreen1.PNG" alt="Quality icon">
+          <p><b>Caffè di Qualità Superiore</b><br>Solo lotti selezionati dai migliori terroir.</p>
+        </div>
+        <div class="reference-item">
+          <img src="organicicon1.PNG" alt="Organic icon">
+          <p><b>100% Biologico Certificato</b><br>Coltivato senza pesticidi o sostanze chimiche.</p>
+        </div>
+        <div class="reference-item">
+          <img src="cupscoregreenicon.PNG" alt="cup score icon">
+          <p><b>Cup Score ≥ 80+</b><br>Valutazione garantita da Q Grader esperti.</p>
+        </div>
+        <div class="reference-item">
+          <img src="traceabilityleaf.png" alt="Traceability icon">
+          <p><b>Filiera Tracciata al 100%</b><br>Dalla piantagione alla tazzina, trasparenza totale.</p>
+        </div>
+        <div class="reference-item">
+          <img src="sacchi.PNG" alt="Sacks icon">
+          <p><b> Forniture su Larga Scala</b><br>Capacità logistica per volumi elevati annuali.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+<section id="testimonianze">
+  <h2>Dicono di noi</h2>
+  <div class="griglia-testimonianze">
+    <div class="testimonianza">
+      <p>"Qualità eccezionale e servizio impeccabile. Finalmente abbiamo trovato un fornitore affidabile di caffè crudo."</p>
+      <h4>Marco R. – Torrefazione Milano</h4>
+    </div>
+    <div class="testimonianza">
+      <p>"Importiamo da loro da un pò di tempo: trasparenza, puntualità e ottima selezione di origini."</p>
+      <h4>Lucia B. – Aroma Verde Srl</h4>
+    </div>
+    <div class="testimonianza">
+      <p>"Chicchi di primissima scelta. Il nostro blend ora ha un gusto molto più bilanciato e pulito."</p>
+      <h4>Francesco T. – Caffè Terra Madre</h4>
+    </div>
+  </div>
+</section>
+
+<section id="contatti">
+  <h2>Contattaci</h2>
+  <p>Hai una torrefazione o sei interessato al nostro caffè crudo? Scrivici senza impegno.</p>
+  <form action="mailto:tuamail@esempio.com" method="post" enctype="text/plain">
+    <input type="text" name="nome" placeholder="Il tuo nome" required>
+    <input type="email" name="email" placeholder="La tua email" required>
+    <textarea name="messaggio" placeholder="Il tuo messaggio" rows="5" required></textarea>
+    <button type="submit">Invia</button>
+  </form>
+</section>
+
+
+
+   
+
+    
+
+    
+
+    
+  </main>
+
+
+
+  <footer>
+  <div class="footer-content">
+    <!-- Navigazione -->
+    <div class="footer-section">
+      <h3>Esplora</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chi siamo</a></li>
+        <li><a href="#">Origini</a></li>
+        <li><a href="#">I nostri caffè</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </div>
+
+    <!-- Servizi -->
+    <div class="footer-section">
+      <h3>Servizi</h3>
+      <ul>
+        <li><a href="#">Importazione caffè crudo</a></li>
+        <li><a href="#">Consulenza torrefattori</a></li>
+        <li><a href="#">Club D'Alezia Caffè</a></li>
+      </ul>
+    </div>
+
+    <!-- Contatti -->
+    <div class="footer-section">
+      <h3>Contatti</h3>
+      <ul>
+        <li>Email: <a href="mailto:info@daleziacaffe.it">info@daleziacaffe.it</a></li>
+        <li>Tel: <a href="tel:+390123456789">+39 0123 456789</a></li>
+        <li>Via del Caffè 15, 00100 Roma (RM)</li>
+        <li>P.IVA: 12345678901</li>
+      </ul>
+    </div>
+  </div>
+
+  <img src="WHITELOGO.png" alt="Delizìa Caffè Logo" class="footer-logo">
+
+  <div class="footer-copy">
+    <strong>&copy; 2025 Delizìa Caffè – Tutti i diritti riservati</strong>
+  </div>
+</footer>
+
+  <script>
+    let slides = document.querySelectorAll('.slide');
+    let current = 0;
+
+    function switchSlide() {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }
+
+    setInterval(switchSlide, 5000);
+
+
+    // Scrolla automaticamente verso l’ultimo prodotto
+    lastProduct.scrollIntoView({ behavior: 'smooth', inline: 'end' });
+  
+</script>
+
+
+  
+
+  <style>
+    .references-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+    .reference-item {
+      max-width: 200px;
+      text-align: center;
+    }
+    .reference-item img {
+      height: 80px;
+      margin-bottom: 20px;
+    }
+    .reference-item p {
+      font-weight: bold;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: #005c3c;
+    }
+    #references h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #005c3c;
+      margin-top: 40px;
+    }
+    .section-divider {
+      width: 60%;
+      margin: 0 auto 30px;
+      border: 0;
+      border-top: 2px solid #ccc;
+    }
+    
+  </style>
+  
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+  </body>
+  
+</html>
+
+
